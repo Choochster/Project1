@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+    
+.sonic{
+        position: absolute;
+        top: 50%;
+        transform: translate(315%, -54%);
+        padding: 10px;
+        background-image: 500px;
+        width: 20%;
+
+    }
+    
+      
+    body{
+    background-image: url("../Media/Images/Blue background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center; 
+    
+    }
+h1{
+    font-size: 100px;
+    color: azure;
+    font-family: 'Comic Neue', cursive;
+    position: absolute;
+    top: 50%;
+    transform: translate(165%, -350%);
+    padding: 10px;
+}
+
+.clickme:hover{
+    background-color: rgb(24, 67, 187);
+    cursor: grab;
+   
+    }
+.pancake{
+    border: none;
+    background-color: rgb(98, 95, 252);
+    color: black;
+    padding: 15px 32px;
+    font-size: 11px;
+    position: absolute;
+    top: 10%;
+    transform: translate(20%, 300%);
+    margin-right: auto;
+    margin: -100px;
+    }
+     
+    .pancake:hover{
+        background-color: rgb(5, 12, 114);
+        cursor: grab;
+       
+    }
+
+   
+
+
+
+    .bean{
+        color: rgb(182, 8, 8);
+        font-size: 21px;
+        position: absolute;
+        background-color:lightblue; 
+
+        margin-right: auto;
+  padding: 5px;
+  margin: 100px
+  
+       
+    }
+
+    
+   
